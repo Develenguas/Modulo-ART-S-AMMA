@@ -1,0 +1,160 @@
+.seccionitem {
+  color: rgb(255, 255, 255) !important;
+}
+.seccionitem.selected {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+}
+.seccionitem:hover {
+  background-color: #ffffff !important;
+  color: rgb(0, 0, 0) !important;
+}
+/* Sobre escritura para el color del sidebar */
+.sidebar-dark-primary{
+  background-color: #002A3A;
+}
+/*Color del texto de las opciones de los modulos del navbar*/
+a.subMenuNavbar p {
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-bottom: 16px !important;
+  margin-bottom: 0px !important;
+}
+
+a.subMenuNavbar:hover p {
+  color: rgb(179, 179, 179);
+  background-color: #002A3A !important;
+}
+.subMenuNavbarSeleccionado::before{
+  content: "● "; /* Vacío ya que vamos a usar una imagen de fondo */
+}
+.subMenuNavbarSeleccionado{
+  color: rgb(179, 179, 179) !important;
+  background-color: #002A3A !important;
+}
+.colotitulomod {
+  background-color: #002A3A;
+  border-radius: 15px;
+}
+.colorFooter{
+  color: #002A3A ;
+}
+#contenido{
+  padding: 30px;
+  border: 1px solid black;
+}
+.texto {
+  word-wrap: break-word;
+}
+
+/* Estilo para el contenido desplazable del modal */
+.scrollable-content {
+  max-height: 400px; /* Altura máxima del contenido (puedes ajustar el valor según tus necesidades) */
+  overflow-y: auto; /* Habilitar el scroll vertical cuando el contenido excede la altura máxima */
+}
+
+/* Estilo para la clase personalizada del modal */
+.custom-modal-style .swal2-modal {
+  max-height: 80vh; /* Altura máxima del modal (puedes ajustar el valor según tus necesidades) */
+}
+
+/* CSS adicional para el formulario de agave - agregar al CSS base existente */
+
+/* Estilos para los títulos de sección h4 */
+h4.text-primary {
+    background-color: #002A3A;
+    border-radius: 15px;
+    color: white !important;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Estilos para el contenedor del formulario */
+#agaves .container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+}
+
+/* Estilos para las secciones mb-4 */
+#agaves .mb-4 {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px !important;
+    border: 1px solid #e9ecef;
+}
+
+/* Estilos para los campos del formulario con focus */
+#agaves .form-floating > .form-control:focus {
+    border-color: #002A3A;
+    box-shadow: 0 0 0 0.2rem rgba(0, 42, 58, 0.25);
+}
+
+#agaves .form-floating > .form-select:focus {
+    border-color: #002A3A;
+    box-shadow: 0 0 0 0.2rem rgba(0, 42, 58, 0.25);
+}
+
+/* Estilos para las etiquetas */
+#agaves .form-floating > label {
+    color: #6c757d;
+}
+
+#agaves .form-floating > .form-control:focus ~ label,
+#agaves .form-floating > .form-control:not(:placeholder-shown) ~ label,
+#agaves .form-floating > .form-select ~ label {
+    color: #002A3A;
+}
+
+/* Hover effects para las secciones */
+#agaves .mb-4:hover {
+    background-color: #e9ecef;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos para campos requeridos */
+#agaves .form-control:required:invalid {
+    border-color: #dc3545;
+}
+
+#agaves .form-control:required:valid {
+    border-color: #28a745;
+}
+
+/* Estilos para el select de especies */
+#agaves .form-select option {
+    padding: 10px;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+#agaves .form-floating > .form-control,
+#agaves .form-floating > .form-select {
+    border-radius: 8px;
+}
+
+/* Estilo para campos numéricos */
+#agaves input[type="number"]::-webkit-outer-spin-button,
+#agaves input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Estilos responsivos para el formulario */
+@media (max-width: 768px) {
+    #agaves .container {
+        margin: 10px;
+        padding: 20px;
+    }
+    
+    #agaves .mb-4 {
+        padding: 15px;
+    }
+    
+    #agaves h4.text-primary {
+        padding: 10px 15px;
+        font-size: 1.1rem;
+    }
+}
