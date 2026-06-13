@@ -100,7 +100,7 @@ GitHub:
 Colaborador en el desarrollo e implementación del proyecto.
 
 GitHub:
-👉 https://github.com/TUX-2-AQUI
+👉 https://github.com/TUX-2
 
 ## Estancia Profesional
 
